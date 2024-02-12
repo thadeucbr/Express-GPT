@@ -48,7 +48,7 @@ Neste exemplo, estamos enviando uma requisição POST para a rota /user com um e
 Neste exemplo, estamos enviando uma requisição POST para a rota /user com uma senha que tem menos de 6 caracteres.
 
 ### 3. Todos os dados corretos
-```curl -X POST -H "Content-Type: application/json" -d '{"name":"João","email":"joao@email.com","password":"senha123"}' http://localhost:3000/user```
+```curl -X POST -H "Content-Type: application/json" -d '{"name":"João","email":"joao@email.com","senha":"senha123"}' http://localhost:3000/user```
 
 Neste exemplo, estamos enviando uma requisição POST para a rota /user com todos os dados corretos.
 
