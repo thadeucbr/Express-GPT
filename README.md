@@ -38,17 +38,17 @@ O servidor começará a rodar na porta 3000.
 Aqui estão três exemplos de requisições CURL para a rota /user do seu servidor Express. Cada exemplo representa um cenário diferente.
 
 ### 1. Email inválido
-```curl -X POST -H "Content-Type: application/json" -d '{"name":"João","email":"joao.emailinvalido","senha":"senha123"}' http://localhost:3000/user```
+```curl -X POST -H "Content-Type: application/json" -d '{"nome":"João","email":"joao.emailinvalido","senha":"senha123"}' http://localhost:3000/user```
 
 Neste exemplo, estamos enviando uma requisição POST para a rota /user com um email inválido.
 
 ### 2. Senha com menos de 6 caracteres
-```curl -X POST -H "Content-Type: application/json" -d '{"name":"João","email":"joao@email.com","senha":"123"}' http://localhost:3000/user```
+```curl -X POST -H "Content-Type: application/json" -d '{"nome":"João","email":"joao@email.com","senha":"123"}' http://localhost:3000/user```
 
 Neste exemplo, estamos enviando uma requisição POST para a rota /user com uma senha que tem menos de 6 caracteres.
 
 ### 3. Todos os dados corretos
-```curl -X POST -H "Content-Type: application/json" -d '{"name":"João","email":"joao@email.com","senha":"senha123"}' http://localhost:3000/user```
+```curl -X POST -H "Content-Type: application/json" -d '{"nome":"João","email":"joao@email.com","senha":"senha123"}' http://localhost:3000/user```
 
 Neste exemplo, estamos enviando uma requisição POST para a rota /user com todos os dados corretos.
 
