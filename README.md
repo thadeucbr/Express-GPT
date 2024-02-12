@@ -1,6 +1,8 @@
 # Express-GPT
 
-Este projeto é uma prova de conceito que demonstra como a Inteligência Artificial (IA) pode ser utilizada para realizar validações de API e tratamento de erros, tornando os projetos menores e mais fáceis de manter. Com um treinamento adequado, é possível otimizar o fluxo de trabalho, tornando todas as validações mais seguras, assertivas e inteligentes.
+Este projeto é uma prova de conceito que demonstra como a Inteligência Artificial (IA) pode ser utilizada para realizar validações de API e tratamento de erros, tornando os projetos menores e mais fáceis de manter. 
+
+Com um treinamento adequado, é possível otimizar o fluxo de trabalho, tornando todas as validações mais seguras, assertivas e inteligentes.
 
 ### Funcionalidades
 O projeto utiliza a biblioteca OpenAI para realizar as seguintes tarefas:
